@@ -1,0 +1,39 @@
+@use './variables' as var;
+
+.sectionHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionHeaderUser{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gg-bell, .sectionHeaderUserImg{
+    cursor: pointer;
+}
+
+.backLink{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    color: var.$textColor;
+    text-decoration: none;
+
+    i{
+        color: var.$secondaryColor;
+    }
+}
+
+.sectionTitleWrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    i{
+        --ggs: 1.5;
+    }
+}

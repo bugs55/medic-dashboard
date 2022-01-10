@@ -1,0 +1,13 @@
+@use './variables' as var;
+
+.dashboard{
+    display: flex;
+}
+
+.container{
+    height: 100vh;
+    width: calc(100% - 300px);
+    padding: 30px 55px;
+    color: var.$textColor;
+    overflow-y: scroll;
+}

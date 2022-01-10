@@ -1,0 +1,41 @@
+@forward './scss/variables';
+
+// ------RESET---------
+@use './scss/reset';
+@use './scss/defaults';
+
+// ------DASHBOARD---------
+@use './scss/dashboard';
+
+// ------SIDEBAR---------
+@use './scss/sidebar';
+
+// ------SECTION HEADER---------
+@use './scss/sectionHeader';
+
+// ------ALL SECTIONS---------
+@use './scss/sections';
+
+// ------PROJECTS---------
+@use './scss/projects';
+
+// ------SUMMARY---------
+@use './scss/summary';
+
+// ------PATIENTS---------
+@use './scss/patients';
+
+// ------ORDERS---------
+@use './scss/orders';
+
+// ------TABLE PAGINATION---------
+@use './scss/tablePagination';
+
+// ------MODAL---------
+@use './scss/modal';
+
+// ------SINGLE---------
+@use './scss/single';
+
+// ------MEDIA QUERIES---------
+@use './scss/media-queries';

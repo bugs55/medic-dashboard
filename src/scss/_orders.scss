@@ -1,0 +1,15 @@
+@use './variables' as var;
+
+.statusDone, .statusNotDone{
+    padding: 7px;
+    border-radius: 10px;
+    color: var.$white;
+}
+
+.statusDone{
+    background-color: #89d166;
+}
+
+.statusNotDone{
+    background-color: #faad14;
+}

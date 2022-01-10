@@ -1,0 +1,113 @@
+@media (max-width: 1500px){
+    .singleInfoWrapper{
+        justify-content: flex-start;
+    }
+
+    .singleResults, .singleProjects{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 1300px){
+    .summaryDetails{
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .tableWrapper{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 1200px){
+    .sectionControls{
+        flex-direction: column;
+
+        .inputWrapper{
+            margin-top: 15px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 1100px){
+    .summaryWrapper{
+        flex-direction: column;
+    }
+
+    .summary{
+        width: 100%;
+    }
+
+    .sectionHeaderUser .primaryButton{
+        display: none !important;
+    }
+
+    .singleInfoWrapper{
+        justify-content: flex-start;
+    }
+
+    .singleTableWrapper{
+        flex-direction: column;
+    }
+
+    .singleResults, .singleProjects{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 940px) and (min-width: 900px){
+    .singleButtonWrapper{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 900px){
+    .mobileMenu{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    .mobileMenu{
+        display: block;
+        margin-bottom: 15px;
+        z-index: 99999999;
+    }
+
+    .summaryDetails{
+        flex-direction: row;
+        
+    }
+
+    .container{
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .recentResults{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 650px){
+    .singleButtonWrapper, .singleInfoWrapper, .singleTableWrapper{
+        flex-direction: column;
+    }
+
+    .singleTableWrapper .sectionStyling, .singleOrders{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 550px){
+    .sectionHeader{
+        flex-direction: column-reverse;
+    }
+
+    .sectionHeaderUser{
+        justify-content: flex-end;
+        margin-bottom: 15px;
+    }
+}

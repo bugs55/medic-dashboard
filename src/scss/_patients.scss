@@ -1,0 +1,15 @@
+@use './variables' as var;
+
+.gg-check-r{
+    margin: auto;
+    color: var.$blueColor
+}
+
+.actionIcons{
+    display: flex;
+    gap: 15px;
+    color: var.$secondaryColor;
+    justify-content: center;
+    align-items: center;
+    --ggs: 1.1;
+}

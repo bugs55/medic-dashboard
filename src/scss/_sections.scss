@@ -1,0 +1,87 @@
+@use './variables' as var;
+
+.sectionContent{
+    margin-top: 60px;
+}
+
+.sectionStyling{
+    background-color: var.$white;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+
+    & > tr:first-child, thead > tr:first-child{
+        border-bottom: 0.5px solid rgba(70, 99, 128, 20%);
+    }
+
+    th, td{
+        padding: 7px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th{
+        font-weight: 700;
+        font-size: 1.125em;
+        padding-bottom: 15px;
+    }
+
+    tr:nth-child(2n){
+        background-color: #e9f3fb;
+    }
+}
+
+input{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+input[type="text"]{
+    border: none;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+
+    &::placeholder{
+        color: #46638085;
+    }
+}
+
+.inputWrapper{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: var.$white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 400px;
+
+    &:focus-within{
+        outline: 2px solid var.$secondaryColor;
+    }
+}
+
+.tableWrapper{
+    margin-top: 15px;
+    
+    th, td{
+        padding: 12px 3px;
+    }
+}
+
+.sectionControls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonWrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.searchField{
+    max-width: 400px;
+}

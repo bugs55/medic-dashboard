@@ -1,0 +1,38 @@
+@use './variables' as var;
+
+.singleButtonWrapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.singleInfoWrapper{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.singleInfoTitle{
+    margin-bottom: 10px;
+}
+
+.singleTableWrapper{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .sectionStyling{
+        width: 50%;
+    }
+}
+
+.singleButton{
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: var.$secondaryColor;
+    text-decoration: underline;
+}
