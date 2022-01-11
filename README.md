@@ -1,6 +1,6 @@
 # Medical App Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app for a clinic to manage patients, projects and studies
 
 ## Available Scripts
 
