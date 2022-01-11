@@ -23,7 +23,7 @@ export default function Patients() {
         {Header: 'E-mail', accessor: 'email'},
         {id: 'approval', Header: 'Zgoda', accessor: (row) => row.approval && <i className='gg-check-r'></i>},
         {Header: 'Adres zamieszkania', accessor: 'address'},
-        {id: 'link', Header: 'Link', accessor: () => <Link to='/patients/single'>Szczegóły</Link>},
+        {id: 'link', Header: 'Link', accessor: () => <Link to='/patients/single' className='patientLink'>Szczegóły</Link>},
         {id: 'actions', Header: 'Akcje', accessor: row => {
             return(
                 <div className='actionIcons'>
