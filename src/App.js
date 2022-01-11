@@ -25,7 +25,8 @@ function App() {
       if(width <= 900) setIsMenuOpen(false)
       else setIsMenuOpen(true)
     }
-     window.addEventListener('resize', handleResize)
+    window.addEventListener('load', handleResize)
+    window.addEventListener('resize', handleResize)
   })
   
   return (
