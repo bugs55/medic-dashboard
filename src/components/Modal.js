@@ -11,7 +11,7 @@ export const ModalInput = (props) => {
 
 export default function Modal(props) {
     return (
-        <div className='modalWrapper'>
+        <div className='modalWrapper' style={props.style}>
             <div className="modal sectionStyling">
                 <h2>{props.title}</h2>
                 <div className="modalContent">
