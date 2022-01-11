@@ -18,7 +18,8 @@
     align-items: center;
     background-color: rgba(0,0,0,50%);
     padding: 10px 20px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .modal{

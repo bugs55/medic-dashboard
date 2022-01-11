@@ -13,3 +13,11 @@
     align-items: center;
     --ggs: 1.1;
 }
+
+.patientLink{
+    color: var.$secondaryColor;
+
+    &:visited{
+        color: var.$secondaryColor;
+    }
+}
