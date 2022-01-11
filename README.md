@@ -1,6 +1,8 @@
 # Medical App Project
 
-This is an app for a clinic to manage patients, projects and studies
+This is an app for a clinic to manage patients, projects and studies.
+
+[Live demo](https://pedantic-noether-fa7f27.netlify.app/)
 
 ## Available Scripts
 
